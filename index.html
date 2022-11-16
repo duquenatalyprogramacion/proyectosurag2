@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inicio</title>
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -26,7 +26,7 @@
     <header>
       <nav class="navbar navbar-expand-lg azulSura navbar-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{% url 'home' %}">GESTORAPP</a>
+          <a class="navbar-brand" href="./index.html">GESTORAPP</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -44,18 +44,19 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="{% url 'home' %}"
-                  >Home</a
+                  href="./index.html"
+                  >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'medicos' %}">Medicos</a>
+                <a class="nav-link" href="./src/views/gestionmedicos.html"
+                  >Medicos</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href="./src/views/gestionpacientes.html"
+                  >Pacientes</a
+                >
               </li>
             </ul>
           </div>
@@ -75,10 +76,19 @@
               />
               <h1 class="fw-bold">GESTORAPP</h1>
               <p class="wow animate__animated animate__fadeInUp animate__slow">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-                voluptates totam veritatis ducimus a rem nihil distinctio, neque
-                laboriosam suscipit necessitatibus debitis vero, magni eum
-                officiis sit in nisi corrupti!
+                ¿Quiénes somos? El 31 de enero de 1990 nació la Compañía
+                Suramericana de Servicios de Salud, SUSALUD, como una empresa de
+                Medicina Prepagada. Más adelante, el 16 de marzo de 1995 recibió
+                su aprobación como Entidad Promotora de Salud (EPS) y comenzó su
+                participación dentro del Sistema General de Seguridad Social en
+                Salud colombiano, a raíz del surgimiento de la Ley 100 de 1993.
+                A partir de 2009 Susalud cambia de marca y se convierte en EPS
+                SURA. EPS SURA como Entidad Promotora de Salud ofrece los
+                servicios de PBS y Planes Complementarios de Salud. A través de
+                la Compañía de Servicio de Salud IPS Suramericana S.A., la EPS
+                cuenta con divisiones asistenciales para apoyar su gestión con
+                entidades como: IPS Punto de Salud, Dinámica IPS, Salud en Casa,
+                Punto de Vista y Consultoría en riesgos profesionales.
               </p>
             </div>
           </div>
@@ -100,23 +110,28 @@
             >
               <h2>BIENVENIDO</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Dolores ipsam quidem unde maxime, nobis vitae, ad,
-                necessitatibus modi aliquid aut accusantium repellat numquam id
-                nostrum illo placeat voluptatum. Dolorem, sit.
+                Tu vida es nuestra inspiración, y el tiempo tu mejor aliado. Por
+                eso queremos invitarte a un espacio creado especialmente para
+                ti. Donde, en compañía de un equipo especializado, podrás
+                enfocarte en ti, en tu vida y en tu salud, mirándote y
+                reconociéndote como mujer. Regálate una pausa que puede ser tan
+                valiosa como tu vida misma.
               </p>
-              <div class="wow animate__animated animate__fadeInUp animate__slow">
+              <div
+                class="wow animate__animated animate__fadeInUp animate__slow"
+              >
                 <i class="bi bi-heart-pulse-fill fs-1 me-3"></i>
                 <i class="bi bi-person-heart fs-1 me-3"></i>
                 <i class="bi bi-person-workspace fs-1 me-3"></i>
               </div>
-              
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <h4>© Copyright Nataly Duque Rodríguez</h4>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
