@@ -1,5 +1,5 @@
 //IMPORTACIONES
-import {capturarDatos} from '../formularios/formularioMedicos.js'
+import {capturarDatos} from '../formularios/formularioPacientes.js'
 
 //Etiquetas que controlo:
 let etiquetaNombre=document.getElementById("nombres")
